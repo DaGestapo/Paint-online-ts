@@ -33,4 +33,4 @@ function broadcastToUsers(ws, msg) {
     })
 }
 
-app.listen(PORT, () => console.log(window.location.href));
+app.listen(PORT, () => console.log(PORT);
