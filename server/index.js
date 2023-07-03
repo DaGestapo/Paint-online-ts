@@ -33,5 +33,4 @@ function broadcastToUsers(ws, msg) {
     })
 }
 
-
-app.listen(PORT, () => console.log(PORT));
+app.listen(PORT, () => console.log(`Server started on Port- ${PORT}`));
